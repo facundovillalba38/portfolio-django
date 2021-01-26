@@ -1,1 +1,1 @@
-web: gunicorn Doctorando.wsgi
+web: gunicorn portfolio.wsgi
