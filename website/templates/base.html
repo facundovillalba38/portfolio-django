@@ -1,0 +1,45 @@
+{% load static %}
+
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>DANIEL VILLALBA - ARQUITECTO</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="icon" href="{% static 'website/images/apasionada.png' %}">
+		
+		<link rel="stylesheet" href="{% static 'website/css/main.css' %}" />
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<noscript><link rel="stylesheet" href="{% static 'website/css/noscript.css' %}" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				
+
+{%  block content %}
+
+{% endblock %}
+
+<!-- Footer -->
+<footer id="footer">
+     <p class="copyright">&copy; Developer <a href="https://www.linkedin.com/in/facundo-villalba-6a0171180/" target="_blank">Facundo Villalba</a>.</p>
+</footer>
+
+</div>
+
+<!-- BG -->
+<div id="bg"></div>
+
+<!-- Scripts -->
+<script src="{% static 'website/js/jquery.min.js' %}"></script>
+<script src="{% static 'website/js/browser.min.js' %}"></script>
+<script src="{% static 'website/js/breakpoints.min.js' %}"></script>
+<script src="{% static 'website/js/util.js' %}"></script>
+<script src="{% static 'website/js/main.js' %}"></script>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<!-- Header -->
+<header id="header">
+     <div class="content">
+          <div class="inner">
+               <h1>MENSAJE ENVIADO CORRECTAMENTE</h1>
+               <p>TE RESPONDERÉ A LA BREVEDAD.</p>
+          </div>
+     </div>
+     <nav>
+          <ul>
+               <li><a href="{% url 'index' %}">VOLVER AL INICIO</a></li>
+          </ul>
+     </nav>
+</header>
+
+{% endblock %}
