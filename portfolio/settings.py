@@ -135,21 +135,11 @@ STATICFILES_DIRS = [
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Setting to Send Email
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_HOST_USER = 'acc.test.dj'
-EMAIL_HOST_PASSWORD = 'testingacc240497'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = 'acc.test.dj@gmail.com'
-
-'''
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'acc.test.dj@gmail.com'
 EMAIL_HOST_PASSWORD = 'testingacc'
 EMAIL_USE_TLS = True
-'''
 
 django_heroku.settings(locals())
 
